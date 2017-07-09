@@ -8,9 +8,10 @@ public class App {
 	public static void main(String... args) {
 		//Initializations triggers ContainerInitializationObserver.observeWeldInit(@Observes ContainerInitialized event)
 		System.out.println("Initializing...");
-		WeldContainer weld = new Weld().initialize();
-		System.out.println("Selecting bean...");
-		InjectedHelloBean t = weld.instance().select(InjectedHelloBean.class).get();
-		System.out.println(t.greet());
+//		WeldContainer weld = new Weld().initialize();
+		new Weld().initialize();
+//		System.out.println("Selecting bean...");
+//		InjectedHelloBean t = weld.instance().select(InjectedHelloBean.class).get();
+//		System.out.println(t.greet());
 	}
 }

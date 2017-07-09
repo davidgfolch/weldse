@@ -1,7 +1,9 @@
 package es.davidgfolch.cdi.weld.j2se;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
+@ApplicationScoped
 public class InjectedHelloBean {
 
 	@Inject
