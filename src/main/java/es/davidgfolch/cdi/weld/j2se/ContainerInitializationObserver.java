@@ -21,5 +21,6 @@ public class ContainerInitializationObserver {
 
 	public void observeWeldInit(@Observes ContainerInitialized event) {
 		System.out.println(initListener.getWelcomeMessage());
+		System.out.println("Parameters: "+parameters.size());
 	}
 }
