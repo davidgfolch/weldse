@@ -4,7 +4,7 @@
 	<groupId>es.davidgfolch</groupId>
 	<artifactId>weldse</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>WELD SE</name>
+	<name>WELDSE</name>
 
 	<build>
 		<plugins>
